@@ -1,0 +1,7 @@
+{{ define "main" }}
+  {{ range .Site.RegularPages.ByParam "chapter" }}
+    <h2 id="chapter-{{ .Params.chapter }}">{{ .Title }}</h2>
+    {{ .Content }}
+    <hr>
+  {{ end }}
+{{ end }}

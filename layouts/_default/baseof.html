@@ -1,0 +1,21 @@
+<html lang="en">
+    
+    {{- partial "head" -}}
+        
+    <body>
+
+        <main id="main">
+
+            <section>
+                <span>🍂</span>
+                <h1>{{- .Site.Title -}}</h1>
+                <small style="font-size: 0.8em;">{{- .Site.Params.description -}}</small>
+                {{- block "main" . }}{{- end }}
+
+            </section>
+        
+        </main>    
+    
+    </body>
+    
+</html>

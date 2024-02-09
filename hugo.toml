@@ -1,0 +1,5 @@
+baseURL = "https://mynewhugosite.com"
+title = "Mahasemesta"
+
+[params]
+description = "by Fikri Azhar Novianto"
